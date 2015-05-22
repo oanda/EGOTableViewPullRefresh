@@ -54,7 +54,7 @@
 		_lastUpdatedLabel.shadowColor = [UIColor darkGrayColor];
 		_lastUpdatedLabel.shadowOffset = CGSizeMake(0.0f, 1.0f);
 		_lastUpdatedLabel.backgroundColor = [UIColor clearColor];
-		_lastUpdatedLabel.textAlignment = UITextAlignmentCenter;
+		_lastUpdatedLabel.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:_lastUpdatedLabel];
 		
 		_statusLabel = [[UILabel alloc] initWithFrame:CGRectMake(0.0f, frame.size.height - 48.0f, self.frame.size.width, 20.0f)];
@@ -64,7 +64,7 @@
 		_statusLabel.shadowColor = [UIColor darkGrayColor];
 		_statusLabel.shadowOffset = CGSizeMake(0.0f, 1.0f);
 		_statusLabel.backgroundColor = [UIColor clearColor];
-		_statusLabel.textAlignment = UITextAlignmentCenter;
+		_statusLabel.textAlignment = NSTextAlignmentCenter;
 		[self addSubview:_statusLabel];
 		
 		CALayer *layer = [CALayer layer];
